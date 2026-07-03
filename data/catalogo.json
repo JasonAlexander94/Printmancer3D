@@ -2,128 +2,128 @@
     "Catalogo": [
         {
             "ID": "DB-C01",
-            "Name": "Commander libro",
-            "Description": "",
+            "Name": "Grimorio Arcano",
+            "Description": "Formato libro. Traba + ventana para commander.",
             "Price":  13300,
             "IMG": "/Printmancer/img/catalogo/DB-C01.jpg",
             "Stock": 2
         },
         {
             "ID": "DB-C02",
-            "Name": "Esfinge",
-            "Description": "Con espacio para +100 cartas + espacio para guardar cosas",
-            "Price":  18300,
+            "Name": "Esfinge Dorada",
+            "Description": "Escultura de esfinge. Imanes incluidos, +100 cartas, compartimento para dados/tokens.",
+            "Price":  30000,
             "IMG": "/Printmancer/img/catalogo/DB-C02.jpg",
             "Stock": 3
         },
         {
             "ID": "DB-C03",
-            "Name": "Cabeza",
-            "Description": "Espacio para +100 cartas, + slot para dados y tokens",
+            "Name": "Cráneo Ancestral",
+            "Description": "Cabeza escultórica. +100 cartas, compartimento para dados/tokens. ",
             "Price":  19300,
             "IMG": "/Printmancer/img/catalogo/DB-C03.jpg",
             "Stock": 3
         },
         {
             "ID": "DB-C04",
-            "Name": "Tronco",
-            "Description": "Para +100 cartas",
+            "Name": "Tronco Encantado",
+            "Description": "Tronco con capacidad para +100 cartas.",
             "Price":  23300,
             "IMG": "/Printmancer/img/catalogo/DB-C04.jpg",
             "Stock": 5
         },
         {
             "ID": "DB-C07",
-            "Name": "Roca dragon",
-            "Description": "",
-            "Price":  31100,
+            "Name": "Roca del Dragón",
+            "Description": "Roca esculpida con soporte para dragón. +100 cartas.",
+            "Price":  37700,
             "IMG": "/Printmancer/img/catalogo/DB-C07.jpg",
             "Stock": 2
         },
         {
             "ID": "DB-C08",
-            "Name": "Mausoleo",
-            "Description": "",
+            "Name": "Mausoleo Real",
+            "Description": "Templo con columnas y detalle arquitectónico. +100 cartas y tokens.",
             "Price":  35400,
             "IMG": "/Printmancer/img/catalogo/DB-C08.jpg",
             "Stock": 3
         },
         {
             "ID": "DB-DIS01",
-            "Name": "Simple Lorcana",
-            "Description": "Con capacidad para 60+ cartas single sleeved",
+            "Name": "Lorcana Tinta",
+            "Description": "Diseño simple con símbolo de tinta.",
             "Price":    6500,
             "IMG": "/Printmancer/img/catalogo/DB-DIS01.jpg",
             "Stock": 10
         },
         {
             "ID": "DB-DIS02",
-            "Name": "Libro Lorcana",
-            "Description": "Single Sleeve, con Lore counter y counters -1 y -3",
+            "Name": "Lorcana Grimorio",
+            "Description": "Formato 'libro', incluye Lore Counter y contadores -1/-3.",
             "Price":   9400,
             "IMG": "/Printmancer/img/catalogo/DB-DIS02.jpg",
             "Stock": 4
         },
         {
             "ID": "DB-MTG01",
-            "Name": "Simple MTG",
-            "Description": "Con capacidad para 60+ cartas single sleeved",
+            "Name": "Simple 60",
+            "Description": "Diseño minimalista, sin ventana ni compartimentos extra. Capacidad para +60 cartas Single Sleeved.",
             "Price":   6500,
             "IMG": "/Printmancer/img/catalogo/DB-MTG01.jpg",
             "Stock": 10
         },
         {
-            "ID": "DB-MTG02X100",
-            "Name": "Dual Color 100",
-            "Description": "",
-            "Price":   7300,
-            "IMG": "/Printmancer/img/catalogo/DB-MTG02X100.jpg",
-            "Stock": 5
-        },
-        {
             "ID": "DB-MTG02X60",
-            "Name": "Dual Color 60",
-            "Description": "",
+            "Name": "Dúo 60",
+            "Description": "Doble color, capacidad 60 cartas.",
             "Price":  5300,
             "IMG": "/Printmancer/img/catalogo/DB-MTG02X60.jpg",
             "Stock": 6
         },
         {
-            "ID": "DB-MTG03X100",
-            "Name": "Medio 100",
-            "Description": "",
-            "Price":  7900,
-            "IMG": "/Printmancer/img/catalogo/DB-MTG03X100.jpg",
+            "ID": "DB-MTG02X100",
+            "Name": "Dúo 100",
+            "Description": "Doble color, capacidad 100 cartas.",
+            "Price":   7300,
+            "IMG": "/Printmancer/img/catalogo/DB-MTG02X100.jpg",
             "Stock": 5
         },
         {
             "ID": "DB-MTG03X60",
-            "Name": "Medio 60",
-            "Description": "",
+            "Name": "Loyalty 60",
+            "Description": "Símbolo a elección, capacidad 60 cartas.",
             "Price":  6700,
             "IMG": "/Printmancer/img/catalogo/DB-MTG03X60.jpg",
             "Stock": 6
         },
         {
+            "ID": "DB-MTG03X100",
+            "Name": "Loyalty 100",
+            "Description": "Símbolo a elección, capacidad 60 cartas.",
+            "Price":  7900,
+            "IMG": "/Printmancer/img/catalogo/DB-MTG03X100.jpg",
+            "Stock": 5
+        },
+        {
             "ID": "DB-MTG04",
-            "Name": "Commander mix",
-            "Description": "C/ ventana SS + espacio para tokens | Ventana TL",
+            "Name": "commander tower",
+            "Description": "Torre alta con relieve tipo columna. Ventana para Top Loader.",
             "Price":  14400,
             "IMG": "/Printmancer/img/catalogo/DB-MTG04.jpg",
             "Stock": 6
         },
         {
             "ID": "DB-MTG05",
-            "Name": "Commander",
-            "Description": "C/ ventana SS + espacio para tokens",
+            "Name": "Commander Ignis",
+            "Description": "Símbolo Planeswalker grabado. Ventana para commander.",
             "Price":  11700,
             "IMG": "/Printmancer/img/catalogo/DB-MTG05.jpg",
             "Stock": 6
         },
         {
             "ID": "DB-OP01",
-            "Name": "One Piece",
-            "Description": "Con ventana para Top Loader",
+            "Name": "One Piece Wanted",
+            "Description": "Estilo cartel de recompensa. Traba + ventana para Top Loader.",
             "Price":  10600,
             "IMG": "/Printmancer/img/catalogo/DB-OP01.jpg",
             "Stock": 5
@@ -131,31 +131,31 @@
         {
             "ID": "DB-PKM01",
             "Name": "Pokeball",
-            "Description": "Para +60 cartas Single Sleeved",
+            "Description": "Diseño clásico de pokébola. Único modelo, con traba.",
             "Price":  12500,
             "IMG": "/Printmancer/img/catalogo/DB-PKM01.jpg",
             "Stock": 10
         },
         {
             "ID": "DB-PMR01",
-            "Name": "Commander simple sleeved",
-            "Description": "Printmancer commander para Single Sleeved",
+            "Name": "Commander Basic",
+            "Description": "Diseño facetado. Con traba y ventana para commander. Color y modelo a elección.",
             "Price":  7300,
             "IMG": "/Printmancer/img/catalogo/DB-PMR01.jpg",
             "Stock": 7
         },
         {
             "ID": "DB-PMR02",
-            "Name": "Commander toploader",
-            "Description": "Printmancer commander para Top Loader",
+            "Name": "Commander Top",
+            "Description": "Caja con grabado. Traba + ventana para Top Loader.",
             "Price":  8900,
             "IMG": "/Printmancer/img/catalogo/DB-PMR02.jpg",
             "Stock": 7
         },
         {
             "ID": "DB-PMR03",
-            "Name": "Commander SS",
-            "Description": "Commander + comp dados y tokens",
+            "Name": "Commander Plus",
+            "Description": "El más completo: traba, ventana para commander y compartimento interno para dados y tokens.",
             "Price":  13500,
             "IMG": "/Printmancer/img/catalogo/DB-PMR03.jpg",
             "Stock": 7
@@ -163,7 +163,7 @@
         {
             "ID": "DB-TROK01",
             "Name": "Trok",
-            "Description": "",
+            "Description": "Con espacio para 2 mazos. Capacidad para +100 cartas.",
             "Price":  5500,
             "IMG": "/Printmancer/img/catalogo/DB-TROK01.jpg",
             "Stock": 4
@@ -172,11 +172,35 @@
     "Extras": [
         {
             "ID": "SB-18CM",
-            "Name": "Storage bin 18cm",
-            "Description": "Storage + holder (Poke/MTG/Store)",
+            "Name": "Contenedor XL",
+            "Description": "Storage bin para MTG/Pokémon, 18 cm de largo.",
             "Price": 25300,
             "IMG": "/Printmancer/img/catalogo/SB-18CM.jpg",
             "Stock": 3
+        },
+        {
+            "ID": "KIT-PKM01",
+            "Name": "Kit Pokemon Trainer",
+            "Description": "Set Pokémon: contadores de vida, habilidad, stadium y soporte.",
+            "Price": 7500,
+            "IMG": "/Printmancer/img/catalogo/KIT-PKM01.jpg",
+            "Stock": 10
+        },
+        {
+            "ID": "PV-MTG",
+            "Name": "Posavasos MTG",
+            "Description": "Set de 8 posavasos con temática de Magic the Gathering.",
+            "Price": 12000,
+            "IMG": "/Printmancer/img/catalogo/PV-MTG.jpg",
+            "Stock": 5
+        },
+        {
+            "ID": "PV-DBZ",
+            "Name": "Posavasos Dragon Ball",
+            "Description": "Set de 8 posavasos, temático Dragon Ball.",
+            "Price": 15000,
+            "IMG": "/Printmancer/img/catalogo/PV-DBZ.jpg",
+            "Stock": 5
         }
     ]
 }

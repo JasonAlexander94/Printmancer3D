@@ -125,14 +125,12 @@ aside h3 {
 }
 
 /* Botones deshabilitados */
-.btn-sumar:disabled {
+.btn-sumar:disabled, .btn-sumar:disabled:hover {
     opacity: 0.5;
     cursor: not-allowed;
     background-color: gray;
-}
-
-.btn-sumar:disabled:hover {
-    background-color: darkred;
+    font-weight: normal;
+    color: #000;
 }
 
 .carrito-total{
@@ -201,10 +199,23 @@ aside h3 {
 
 .producto-nombre {
     font-family: 'Chau Philomene One', sans-serif;
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 22px;
+    line-height: 22px;
     font-weight: bold;
     margin-bottom: 5px;
+}
+
+.producto-ID {
+    font-family: 'Dosis', sans-serif;
+    font-size: 14px;
+}
+
+.producto-descripcion {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    height: 80px;
+    margin-bottom: 5px;
+    overflow: hidden;
 }
 
 .producto-precio {
