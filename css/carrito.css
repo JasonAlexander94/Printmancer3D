@@ -170,6 +170,18 @@ aside h3 {
 /* FIN de carrito */
 /* Catalogo */
 
+.notas {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.notas a {
+    color: #462d18;
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 .producto-item {
     border: 5px solid #462d18;
     padding: 10px;
@@ -207,7 +219,7 @@ aside h3 {
 
 .producto-ID {
     font-family: 'Dosis', sans-serif;
-    font-size: 14px;
+    font-size: 10px;
 }
 
 .producto-descripcion {

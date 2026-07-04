@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Printmancer - Inicio</title>
+    <title>Printmancer - Contacto</title>
+    <link rel="icon" type="image/x-icon" href="/Printmancer/img/favicon.png">
     <!-- Carga de estilos -->
     <link rel="stylesheet" href="/Printmancer/css/style.css">
     <link rel="stylesheet" href="/Printmancer/css/headerfooter.css">
@@ -47,6 +48,29 @@
             <button type="submit">Enviar</button>
         </form>
         <img src="img/Printar01.png" alt="Contacto" class="contactoImg">
+
+
+        <!-- Carrito -->
+        <button id="btn-carrito">🛒 Carrito (<span id="cantidad-carrito">0</span>)</button>
+        <aside class="carrito-close" id="cart">
+            <h3>🛒 Tu carrito (<span id="cantidad-carrito2">0</span>)</h3>
+
+            <ul id="items-carrito">
+                <!-- Los items del carrito se cargan desde JavaScript -->
+            </ul>
+
+            <div class="carrito-total">
+                <span>Total:</span>
+                <strong id="total-carrito">$0</strong>
+            </div>
+
+            <p class="carrito-nota">* El pago es una demostración, no se procesa ningún cobro real.</p>
+            <div class="carrito-acciones">
+                <button id="btn-vaciar" class="btn-secundario">Vaciar</button>
+                <button id="btn-pagar" class="btn">Pagar</button>
+            </div>
+        </aside>
+
 
     </main>
 

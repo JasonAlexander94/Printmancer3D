@@ -2,25 +2,30 @@
 
     <div class="footer-col">
         <h4>¿Ya tenes un archivo para imprimir? ¡Te lo cotizamos en el momento!</h4>
-        <p>
+        <p class="calculadora">
             Si tenés un archivo listo para imprimir, pero te falta la impresora, no te preocupes.<br>
             Con el siguiente formulario te cotizamos lo que necesitas.
         </p>
 
-        <label>Horas:</label>
+        <label>Horas de producción</label>
         <input type="number" name="horas" id="horas" max="9999" min="0" value="0">
 
-        <label>Minutos:</label>
+        <label>Minutos de producción</label>
         <input type="number" name="minutos" id="minutos" max="59" min="0" value="0">
 
-        <label>Gramos:</label>
+        <label>Gramos a utilizar:</label>
         <input type="number" name="gramos" id="gramos" max="9999" min="1" value="0">
 
-        <label>Cantidad:</label>
+        <label>Cantidad de unidades a imprimir:</label>
         <input type="number" name="cantidad" id="cantidad" placeholder="Cantidad de unidades a imprimir" max="9999"
             min="1" value="1">
 
-        <button onclick="calcular()" id="jason1">Calcular</button>
+        <button onclick="calcular()" id="calcular" class="btn-calculadora">Calcular</button>
+
+        <div class="calculadora-total" id="textoTotal">
+            El coste de este trabajo es de aproximadamente: $<br>
+            Para un resultado más certero, envíenos un mensaje privado.
+        </div>
 
     </div>
 

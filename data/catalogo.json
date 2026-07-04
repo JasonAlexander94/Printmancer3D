@@ -19,7 +19,7 @@
         {
             "ID": "DB-C03",
             "Name": "Cráneo Ancestral",
-            "Description": "Cabeza escultórica. +100 cartas, compartimento para dados/tokens. ",
+            "Description": "Cabeza esculpida. +100 cartas, compartimento para dados/tokens.",
             "Price":  19300,
             "IMG": "/Printmancer/img/catalogo/DB-C03.jpg",
             "Stock": 3
@@ -99,14 +99,14 @@
         {
             "ID": "DB-MTG03X100",
             "Name": "Loyalty 100",
-            "Description": "Símbolo a elección, capacidad 60 cartas.",
+            "Description": "Símbolo a elección, capacidad 100 cartas.",
             "Price":  7900,
             "IMG": "/Printmancer/img/catalogo/DB-MTG03X100.jpg",
             "Stock": 5
         },
         {
             "ID": "DB-MTG04",
-            "Name": "commander tower",
+            "Name": "Commander Tower",
             "Description": "Torre alta con relieve tipo columna. Ventana para Top Loader.",
             "Price":  14400,
             "IMG": "/Printmancer/img/catalogo/DB-MTG04.jpg",
@@ -131,7 +131,7 @@
         {
             "ID": "DB-PKM01",
             "Name": "Pokeball",
-            "Description": "Diseño clásico de pokébola. Único modelo, con traba.",
+            "Description": "Diseño clásico de pokébola. Único modelo, con traba. +60 cartas.",
             "Price":  12500,
             "IMG": "/Printmancer/img/catalogo/DB-PKM01.jpg",
             "Stock": 10
