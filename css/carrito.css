@@ -125,7 +125,7 @@ aside h3 {
 }
 
 /* Botones deshabilitados */
-.btn-sumar:disabled, .btn-sumar:disabled:hover {
+.btn-sumar:disabled, .btn-sumar:disabled:hover, #btn-vaciar:disabled, #btn-pagar:disabled {
     opacity: 0.5;
     cursor: not-allowed;
     background-color: gray;
