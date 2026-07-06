@@ -14,6 +14,7 @@
     <script src="/Printmancer/scripts/calculadora.js"></script>
     <script src="/Printmancer/scripts/carrito.js"></script>
     <script src="/Printmancer/scripts/headerfooter.js"></script>
+    <script src="/Printmancer/scripts/script.js"></script>
     <!-- FONTS -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis|Montserrat|Chau+Philomene+One">
 </head>
@@ -23,32 +24,150 @@
     <a href="#top" class="btt">▲</a>
     <header id="header"></header>
     <main>
-        <h1>Ponete en contacto con nosotros</h1>
+        <section class="faq-section">
+            <h2 class="faq-titulo">Preguntas Frecuentes</h2>
+
+            <div class="faq-item">
+                <button class="faq-pregunta">
+                    ¿Cuánto tardan en entregar un pedido?
+                    <span class="faq-icono">▾</span>
+                </button>
+                <div class="faq-respuesta">
+                    <p>Todo depende del producto a pedir y su tiempo de elaboración. Si se encargan varios productos es
+                        probable que nos tardemos en imprimir todos en caso de no tener stock.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-pregunta">
+                    ¿Hacen envíos a todo el país?
+                    <span class="faq-icono">▾</span>
+                </button>
+                <div class="faq-respuesta">
+                    <p>Sí, realizamos envíos a todo el país, mediante Correo Argentino o Andreani. Los envíos a Capital
+                        Federal pueden ser entregados de manera personal, o se puede coordinar fecha y horario para
+                        pasarlos a retirar por el domicilio.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-pregunta">
+                    ¿Cómo se cotiza el precio de un trabajo personalizado?
+                    <span class="faq-icono">▾</span>
+                </button>
+                <div class="faq-respuesta">
+                    <p>Los precios se cotizan mediante una calculadora que diseñamos nosotros donde calculamos el tiempo
+                        de elaboración de cada pieza, la cantidad de filamento a utilizar y el desgaste de la impresora.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-pregunta">
+                    ¿Necesito tener el diseño 3D listo o ustedes lo pueden crear?
+                    <span class="faq-icono">▾</span>
+                </button>
+                <div class="faq-respuesta">
+                    <p>De momento no nos encargamos de diseñar modelos personalizados. Preferimos que el cliente ya
+                        tenga el archivo para imprimir o que nos de una idea clara de lo que busca para que nuestro
+                        equipo pueda encontrar algo similar a sus preferencias.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-pregunta">
+                    ¿Qué materiales usan para imprimir?
+                    <span class="faq-icono">▾</span>
+                </button>
+                <div class="faq-respuesta">
+                    <p>Utilizamos PLA y es el único tipo de filamento que tenemos. En caso de ser necesario se puede
+                        charlar para ver de adquirir otro tipo de filamente para un trabajo personalizado.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-pregunta">
+                    ¿Qué pasa si mi producto llega dañado?
+                    <span class="faq-icono">▾</span>
+                </button>
+                <div class="faq-respuesta">
+                    <p>Nos encargamos de que, cuando el producto sale del taller, no esté dañado de ninguna manera, pero
+                        en caso de que eso sucediera, podemos devolver el dinero o realizar el cambio por un producto
+                        nuevo.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-pregunta">
+                    ¿Aceptan pagos en cuotas?
+                    <span class="faq-icono">▾</span>
+                </button>
+                <div class="faq-respuesta">
+                    <p>Los pagos en cuotas actualmente no se encuentran disponibles. Estamos trabajando para que eso
+                        pueda ser una posibilidad a futuro.</p>
+                </div>
+            </div>
+        </section>
+
+        <h2>Ponete en contacto con nosotros</h2>
         <p class="contactoTexto">
             Si tenes alguna duda, o querés que te presupuestemos algún proyecto tuyo, no dudes en contactarnos.<br>
             También podés escribirnos para contarnos qué te gustaría que imprimiéramos, o qué te gustaría que ofrezcamos
             en nuestro catálogo.<br>
         </p>
 
-        <form action="https://formspree.io/f/xzdydjjn" method="post">
-            <label for="nombre">*Nombre:
-                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required></label>
+        <h2>Ponete en contacto con nosotros</h2>
+        <p class="contactoTexto">
+            Si tenes alguna duda, o querés que te presupuestemos algún proyecto tuyo, no dudes en contactarnos.<br>
+            También podés escribirnos para contarnos qué te gustaría que imprimiéramos, o qué te gustaría que ofrezcamos
+            en nuestro catálogo.<br>
+        </p>
 
-            <label for="email">*Email:
-                <input type="email" id="email" name="email" placeholder="Tu email" required></label>
+        <div class="contacto-container">
+            <form action="https://formspree.io/f/xzdydjjn" method="post">
+                <label for="nombre">*Nombre:
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required></label>
 
-            <label for="archivo">Archivo:
-                <input type="file" id="archivo" name="archivo" multiple accept=".stl,.3mf"></label>
+                <label for="email">*Email:
+                    <input type="email" id="email" name="email" placeholder="Tu email" required></label>
 
-            <label for="mensaje">*Mensaje:
-                <textarea id="mensaje" name="mensaje"
-                    placeholder="Tu mensaje o tus preferencias con respecto a la impresión si buscas un presupuesto."
-                    required"></textarea></label>
+                <label for="archivo">Archivo:
+                    <input type="file" id="archivo" name="archivo" multiple accept=".stl,.3mf"></label>
 
-            <button type="submit">Enviar</button>
-        </form>
-        <img src="img/Printar01.png" alt="Contacto" class="contactoImg">
+                <label for="mensaje">*Mensaje:
+                    <textarea id="mensaje" name="mensaje"
+                        placeholder="Tu mensaje o tus preferencias con respecto a la impresión si buscas un presupuesto."
+                        required></textarea></label>
 
+                <button type="submit">Enviar</button>
+            </form>
+
+            <div class="columna-derecha">
+                <img src="img/Printar01.png" alt="Contacto" class="contactoImg">
+
+                <div class="tarjeta-contacto">
+                    <h3>¿Preferís algo más directo?</h3>
+
+                    <a href="https://wa.me/549XXXXXXXXXX?text=Hola%2C%20quiero%20consultar%20sobre%20un%20presupuesto"
+                        class="btn-whatsapp" target="_blank">
+                        📱 Escribinos por WhatsApp
+                    </a>
+
+                    <div class="dato-contacto">
+                        <span>✉️</span> printmancer3d@gmail.com
+                    </div>
+
+                    <div class="dato-contacto">
+                        <span>🕐</span> Respondemos en menos de 24hs
+                    </div>
+
+                    <div class="redes-contacto">
+                        <a href="#" target="_blank">📷 Instagram</a>
+                        <a href="#" target="_blank">🛒 Tienda Virtual</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- Carrito -->
         <button id="btn-carrito">🛒 Carrito (<span id="cantidad-carrito">0</span>)</button>
